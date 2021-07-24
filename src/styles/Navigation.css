@@ -1,0 +1,45 @@
+/* Navigation Bar styling */
+#navbar {
+    background: var(--main-green);
+    box-shadow: 0 0.125rem 0 rgba(0, 0, 0, 0.6);
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+  
+#navbar h1 {
+    display: none;
+    margin-left: 0.625rem;
+}
+
+#nav-list {
+    display: block;
+}
+
+#nav-list li a {
+    color: var(--main-white);
+    display: block;
+    font-size: 1.125rem;
+    padding: 1.25rem;
+}
+
+#nav-list a:hover {
+    background: var(--main-green-gray);
+}
+
+/* Subtitle section styling */
+#subtitle-text h3 {
+    background-color: var(--main-light-plum);
+    color: var(--main-white);
+    display: none;
+    font-size: 1.5625rem;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0 auto;
+    opacity: 70%;
+    position: relative;
+    text-align: center;
+    top: 4.375rem;
+    z-index: 0;
+}

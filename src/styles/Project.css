@@ -1,0 +1,72 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+/* Project Work section styling */
+#projects {
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    padding: 4.375rem 1.25rem;
+    text-align: center;
+}
+
+.projects-section-header {
+    bottom: 0.625rem;
+    color: var(--main-white);
+    margin: 0 auto;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+#projects h3 {
+    border-bottom: 0.125rem solid var(--main-white);
+    font-style: italic;
+    margin-bottom: 1.875rem;
+    max-width: 640px;
+}
+
+main > .projects-container {
+    margin-bottom: 2.5rem;
+}
+
+.projects-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 3.75rem;
+    width: 100%;
+}
+
+.project-work {
+    width: 100%;
+}
+
+.project-image {
+    object-fit: cover;
+    width: 100%;
+}
+
+.project-image:hover {
+    opacity: 90%;
+}
+
+.project-work-paragraph {
+    background: var(--main-green);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: var(--main-white);
+    font-size: 1.25rem;
+    margin: 0 auto;
+    padding: 1rem 0rem;
+    width: 100%;
+}
+
+.project-work-paragraph:hover, .project-repository:hover {
+    background: var(--main-light-plum);
+    color: var(--main-white);
+}
+
+.project-repository {
+    background: #177e53;
+    color: var(--main-white);
+    display: flex;
+    font-size: 1.25rem;
+    justify-content: center;
+    padding: 0.4rem 0rem;
+    width: 100%;
+}
