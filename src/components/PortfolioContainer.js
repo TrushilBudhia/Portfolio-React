@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
+import Header from './Header';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -27,8 +27,8 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* // the props of NavTabs are currentPage with a value of {currentPage} and handlePageChange with a value of {handlePageChange} function - the props are passed to handlePageChange  */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* // The props passed to the Header component are currentPage with a value of {currentPage} and handlePageChange with a value of {handlePageChange} function  */}
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* // The renderPage function is being invoked */}
       {renderPage()}
     </div>

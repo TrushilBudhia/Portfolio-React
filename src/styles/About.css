@@ -9,6 +9,10 @@
     width: 100%;
 }
 
+#about-me-section h2 {
+    font-size: 3rem;
+}
+
 #about-me-section p {
     background: var(--main-white);
     font-size: 1.5625rem;
@@ -57,19 +61,58 @@
 }
   
 .btn:hover {
-    background: #929292;
+    background: #333333;
+    border-radius: 2rem;
+}
+
+/* MEDIA QUERIES */
+/****************************************************/ 
+/* For large PHONES, TABLETS and larger devices - min-width 425px */
+/****************************************************/ 
+@media only screen and (min-width: 425px) {
+    /* About Me section styling */
+    #about-me-section p {
+        font-size: 1.875rem;
+    }
 }
   
-.fab {
-    font-family: "Font Awesome 5 Brands";
+/***********************************************************/ 
+/* For larger TABLETS and bigger devices - min-width 768px */
+/***********************************************************/ 
+@media only screen and (min-width: 768px) {
+    /* About Me section styling */
+    #about-me-section {
+        background: url('../assets/images/bg1.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+    #about-me-section p {
+        margin: 0 auto;
+    }
+    .photo {
+        display: block;
+    }
+
+    .photo:hover {
+        opacity: 85%;
+    }
 }
   
-.fa, .fab, .fal, .far, .fas {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    line-height: 1;
-    text-rendering: auto;
+/****************************************************/ 
+/* For LAPTOPS and larger devices - min-width 992px */
+/****************************************************/ 
+@media only screen and (min-width: 992px) {
+    /* About Me section styling */
+    #about-me-section p {
+        width: 60%;
+    }
+}
+  
+/*************************************/  
+/* For DESKTOP PC - min-width 1200px */
+/*************************************/ 
+@media only screen and (min-width: 1200px) {
+    /* About Me section styling */
+    #about-me-section p {
+        width: 50%;
+    }
 }

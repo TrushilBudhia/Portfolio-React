@@ -1,0 +1,25 @@
+/* Subtitle section styling */
+#subtitle-text h3 {
+    background-color: var(--main-light-plum);
+    bottom: 4.375rem;
+    color: var(--main-white);
+    display: none;
+    font-size: 1.5625rem;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0 auto;
+    opacity: 70%;
+    position: relative;
+    text-align: center;
+    top: 4.375rem;
+    z-index: 0;
+}
+
+/***********************************************************/ 
+/* For larger TABLETS and bigger devices - min-width 768px */
+/***********************************************************/ 
+@media only screen and (min-width: 768px) {
+    #subtitle-text h3 {
+        display: block;
+    }
+}
