@@ -1,0 +1,18 @@
+/* Footer section styling */
+footer {
+    background: var(--main-green);
+    border-top: 2px solid var(--main-green-gray);
+    color: var(--main-white);
+    display: flex;
+    font-weight: 300;
+    justify-content: center;
+    padding: 1.25rem;
+}
+  
+footer p a {
+    color: var(--main-white);
+}
+  
+footer p a:hover {
+    color: var(--main-light-plum);
+}
