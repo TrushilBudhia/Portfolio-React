@@ -5,6 +5,7 @@ import { faAt, faAddressCard } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import '../../styles/About.css'
 import Photo from '../../assets/images/Photo.jpg'
+import ResumeDocument from '../../assets/documents/Trushil-Budhia-Resume.pdf'
 
 // A function to display the About section of the webpage - a paragraph about myself, a photo and links to my github, linkedin profiles
 export default function About() {
@@ -30,7 +31,7 @@ export default function About() {
                     <FontAwesomeIcon icon={faAt} />
                     {` Send an email`}
                 </a>
-                <a href="./assets/documents/Trushil-Budhia-Resume.pdf" target="_blank" rel="noreferrer" className="btn contact-details">
+                <a href={ResumeDocument} target="_blank" rel="noreferrer" className="btn contact-details">
                     <FontAwesomeIcon icon={faAddressCard} />
                     {` Resume`}
                 </a>

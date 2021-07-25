@@ -44,7 +44,7 @@ main > .projects-container {
 }
 
 .project-image:hover {
-    opacity: 90%;
+    opacity: 0.9;
 }
 
 .project-work-paragraph {

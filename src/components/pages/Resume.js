@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons'
 import { SiReact, SiRedux, SiJavascript, SiJquery, SiWebpack, SiBootstrap, SiTailwindcss, SiBulma, SiCss3, SiHtml5, SiPhp, SiNodeDotJs, SiMysql, SiMongodb, SiGraphql } from "react-icons/si";
-
+import ResumeDocument from '../../assets/documents/Trushil-Budhia-Resume.pdf'
 import '../../styles/Resume.css';
 
 export default function Resume() {
@@ -10,7 +10,7 @@ export default function Resume() {
         <section id="resume">
             <h2>Resume</h2>
             <article id="document-info">
-                <a href="../../assets/documents/Trushil-Budhia-Resume.pdf" target="_blank" rel="noreferrer" className="document-link">
+                <a href={ResumeDocument} target="_blank" rel="noreferrer" className="document-link">
                     <FontAwesomeIcon icon={faAddressCard} />
                     {` Download my resume`}
                 </a>
