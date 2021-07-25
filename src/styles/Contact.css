@@ -1,0 +1,58 @@
+/* Contact section styling */
+#contact {
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    min-height: 100vh;
+    padding: 1rem 1.25rem;
+}
+
+#contact-form {
+    width: 95%;
+}
+
+.form-container h1 {
+    text-align: center;
+}
+
+.contact-form {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.input, .textarea {
+    background: #edfff2;
+}
+
+/* MEDIA QUERIES */
+/***********************************************************/ 
+/* For larger TABLETS and bigger devices - min-width 768px */
+/***********************************************************/ 
+@media only screen and (min-width: 768px) {
+    /* Contact section styling */
+    #contact {
+        padding: 6rem 1.25rem;
+    }
+}
+
+/****************************************************/ 
+/* For LAPTOPS and larger devices - min-width 992px */
+/****************************************************/ 
+@media only screen and (min-width: 992px) {
+    /* Contact section styling */
+    #contact {
+        padding: 7rem 1.25rem;
+    }
+
+    #contact-form {
+        width: 70%;
+    }
+}
+
+/*************************************/  
+/* For DESKTOP PC - min-width 1200px */
+/*************************************/ 
+@media only screen and (min-width: 1200px) {
+    /* Contact section styling */
+    #contact-form {
+        width: 50%;
+    }
+}
