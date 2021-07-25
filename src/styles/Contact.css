@@ -5,17 +5,13 @@
     padding: 1rem 1.25rem;
 }
 
-#contact-form {
-    width: 95%;
-}
-
 .form-container h1 {
     text-align: center;
 }
 
 .contact-form {
     margin: 0 auto;
-    width: 1280px;
+    /* width: 1280px; */
 }
 
 .input, .textarea {
@@ -40,19 +36,5 @@
     /* Contact section styling */
     #contact {
         padding: 7rem 1.25rem;
-    }
-
-    #contact-form {
-        width: 70%;
-    }
-}
-
-/*************************************/  
-/* For DESKTOP PC - min-width 1200px */
-/*************************************/ 
-@media only screen and (min-width: 1200px) {
-    /* Contact section styling */
-    #contact-form {
-        width: 50%;
     }
 }

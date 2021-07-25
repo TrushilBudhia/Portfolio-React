@@ -53,8 +53,8 @@ export default function Contact() {
     return (
         <section id="contact">
             <article className="form-container">
-                <h1 className="has-text-white is-size-3 my-3">Contact</h1>
-                <form className="contact-form">
+                <h1 className=" has-text-white is-size-3 my-3">Contact</h1>
+                <form className="contact-form column is-four-fifths">
                     <div className="field">
                         <label className="label has-text-white is-size-5">Name</label>
                         <div className="control has-icons-left">
