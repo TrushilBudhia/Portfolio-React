@@ -27,7 +27,7 @@
     border: 0.125rem solid var(--main-black);
     border-radius: 6.2rem;
     display: none;
-    opacity: 90%;
+    opacity: 0.9;
     position: relative;
     /* top: 2.5rem; */
     width: 180px;
@@ -48,12 +48,10 @@
   
 .contact-details {
     font-size: 1.5rem;
-    /* text-shadow: 2px 2px 1px #747474; */
     transition: transform 0.3s ease-out;
 }
   
 .btn {
-    border-radius: 2px;
     color: var(--main-black);
     display: inline-block;
     padding: 0.625rem 1.25rem;
@@ -93,7 +91,7 @@
     }
 
     .photo:hover {
-        opacity: 85%;
+        opacity: 0.85;
     }
 }
   
