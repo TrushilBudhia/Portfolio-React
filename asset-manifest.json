@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.9784f98e.chunk.css",
+    "main.js": "/Portfolio-React/static/js/main.74425589.chunk.js",
+    "main.js.map": "/Portfolio-React/static/js/main.74425589.chunk.js.map",
+    "runtime-main.js": "/Portfolio-React/static/js/runtime-main.cc98a62e.js",
+    "runtime-main.js.map": "/Portfolio-React/static/js/runtime-main.cc98a62e.js.map",
+    "static/js/2.32dd0bd8.chunk.js": "/Portfolio-React/static/js/2.32dd0bd8.chunk.js",
+    "static/js/2.32dd0bd8.chunk.js.map": "/Portfolio-React/static/js/2.32dd0bd8.chunk.js.map",
+    "index.html": "/Portfolio-React/index.html",
+    "static/css/main.9784f98e.chunk.css.map": "/Portfolio-React/static/css/main.9784f98e.chunk.css.map",
+    "static/js/2.32dd0bd8.chunk.js.LICENSE.txt": "/Portfolio-React/static/js/2.32dd0bd8.chunk.js.LICENSE.txt",
+    "static/media/Easee-Appointment-Tracker-2-img-1.a9e9125f.jpg": "/Portfolio-React/static/media/Easee-Appointment-Tracker-2-img-1.a9e9125f.jpg",
+    "static/media/Employee-Management-System-img-1.ede58f0a.jpg": "/Portfolio-React/static/media/Employee-Management-System-img-1.ede58f0a.jpg",
+    "static/media/Note-Taker-img-1.12b40272.jpg": "/Portfolio-React/static/media/Note-Taker-img-1.12b40272.jpg",
+    "static/media/Photo.22b2cf41.jpg": "/Portfolio-React/static/media/Photo.22b2cf41.jpg",
+    "static/media/Tech-Blog-img-1.04b7eda2.jpg": "/Portfolio-React/static/media/Tech-Blog-img-1.04b7eda2.jpg",
+    "static/media/About.css": "/Portfolio-React/static/media/bg1.e7a416c6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc98a62e.js",
+    "static/js/2.32dd0bd8.chunk.js",
+    "static/css/main.9784f98e.chunk.css",
+    "static/js/main.74425589.chunk.js"
+  ]
+}
