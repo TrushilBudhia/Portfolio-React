@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.9e8d7bbb.chunk.css",
+    "main.css": "/Portfolio-React/static/css/main.b6a184fe.chunk.css",
     "main.js": "/Portfolio-React/static/js/main.7bd8a295.chunk.js",
     "main.js.map": "/Portfolio-React/static/js/main.7bd8a295.chunk.js.map",
     "runtime-main.js": "/Portfolio-React/static/js/runtime-main.cc98a62e.js",
@@ -8,7 +8,7 @@
     "static/js/2.160563c9.chunk.js": "/Portfolio-React/static/js/2.160563c9.chunk.js",
     "static/js/2.160563c9.chunk.js.map": "/Portfolio-React/static/js/2.160563c9.chunk.js.map",
     "index.html": "/Portfolio-React/index.html",
-    "static/css/main.9e8d7bbb.chunk.css.map": "/Portfolio-React/static/css/main.9e8d7bbb.chunk.css.map",
+    "static/css/main.b6a184fe.chunk.css.map": "/Portfolio-React/static/css/main.b6a184fe.chunk.css.map",
     "static/js/2.160563c9.chunk.js.LICENSE.txt": "/Portfolio-React/static/js/2.160563c9.chunk.js.LICENSE.txt",
     "static/media/Autotyper-img-1.9e4ed1c8.jpg": "/Portfolio-React/static/media/Autotyper-img-1.9e4ed1c8.jpg",
     "static/media/Budget-Tracker-PWA-img-2.e4936ed4.gif": "/Portfolio-React/static/media/Budget-Tracker-PWA-img-2.e4936ed4.gif",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.cc98a62e.js",
     "static/js/2.160563c9.chunk.js",
-    "static/css/main.9e8d7bbb.chunk.css",
+    "static/css/main.b6a184fe.chunk.css",
     "static/js/main.7bd8a295.chunk.js"
   ]
 }
