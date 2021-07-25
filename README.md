@@ -36,9 +36,9 @@ The link to the Portfolio: [Trushil Portfolio](https://trushilbudhia.github.io/P
 
 The following images shows the web application's appearance and functionality:
 
-![The Portfolio landing page.](./assets/images/Trushil-Budhia-Portfolio-Preview-1.png)
+![The Portfolio landing page.](./assets/images/Trushil-Budhia-Portfolio-preview-1.png)
 
-![The Portfolio projects page.](./assets/images/Trushil-Budhia-Portfolio-Preview-2.png)
+![The Portfolio projects page.](./assets/images/Trushil-Budhia-Portfolio-preview-2.png)
 
 > **Note**: This layout is responsive.
 
