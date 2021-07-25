@@ -4,6 +4,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Footer from './Footer'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -31,6 +32,8 @@ export default function PortfolioContainer() {
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* // The renderPage function is being invoked */}
       {renderPage()}
+      {/* // The footer component renders the footer section */}
+      <Footer />
     </div>
   );
 }

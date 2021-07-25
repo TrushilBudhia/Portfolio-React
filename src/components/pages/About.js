@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAt, faAddressCard } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import '../../styles/About.css'
-import '../../styles/style.css'
 import Photo from '../../assets/images/Photo.jpg'
 
 // A function to display the About section of the webpage - a paragraph about myself, a photo and links to my github, linkedin profiles
@@ -13,7 +12,9 @@ export default function About() {
         <section id="about-me-section">
             <h2>About Me</h2>
             <p>Hi I am Trushil. A web developer who enjoys learning about advances in development technologies and building user friendly applications. I am based in Perth, Australia</p>
-            <img className="photo" src={Photo} alt="Trushil Profile" width="100" height="50" />
+            <a href="https://github.com/TrushilBudhia/" target="_blank" rel="noreferrer">
+                <img className="photo" src={Photo} alt="Trushil Profile" width="100" height="50" />
+            </a>
 
             <article id="contact-links">
                 <a href="https://github.com/TrushilBudhia/" target="_blank" rel="noreferrer" className="btn contact-details">

@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Navigation.css'
-import '../styles/style.css'
 
 // The NavigationBar function builds the navigation
 // The currentPage and handlePageChange are passed as parameters

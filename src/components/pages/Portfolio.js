@@ -1,6 +1,5 @@
 import React from 'react';
 import Project from '../Project.js'
-import '../../styles/style.css'
 import '../../styles/Project.css';
 import EaseeAppointmentTrackerImg from '../../assets/images/Easee-Appointment-Tracker-2-img-1.jpg'
 import TechBlogImg from '../../assets/images/Tech-Blog-img-1.jpg'
