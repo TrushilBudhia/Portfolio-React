@@ -6,7 +6,7 @@ footer {
     display: flex;
     font-weight: 300;
     justify-content: center;
-    padding: 1.25rem;
+    padding: 0.75rem;
 }
   
 footer p a {

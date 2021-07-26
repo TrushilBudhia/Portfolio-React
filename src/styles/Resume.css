@@ -62,5 +62,6 @@
 .front-end ul li, .back-end ul li, .other ul li {
     color: var(--main-white);
     font-size: 1.3rem;
+    width: auto
 }
   

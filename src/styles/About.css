@@ -27,6 +27,7 @@
     border: 0.125rem solid var(--main-black);
     border-radius: 6.2rem;
     display: none;
+    height: 100%;
     opacity: 0.9;
     position: relative;
     /* top: 2.5rem; */
