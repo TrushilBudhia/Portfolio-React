@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons'
-import { SiReact, SiRedux, SiJavascript, SiWordpress, SiJquery, SiBootstrap, SiTailwindcss, SiBulma, SiCss3, SiHtml5, SiPhp, SiLaravel, SiNodeDotJs, SiMysql, SiMongodb, SiGraphql, SiAdobephotoshop, SiXampp, SiWebpack, SiGithub, SiHeroku, SiPostman } from "react-icons/si";
+import { SiReact, SiRedux, SiJavascript, SiWordpress, SiJquery, SiBootstrap, SiTailwindcss, SiBulma, SiCss3, SiHtml5, SiPhp, SiLaravel, SiNodeDotJs, SiMysql, SiMongodb, SiGraphql, SiAdobephotoshop, SiXampp, SiWebpack, SiGithub, SiHeroku, SiPostman, SiJest } from "react-icons/si";
 import ResumeDocument from '../../assets/documents/Trushil-Budhia-Resume.pdf'
 import '../../styles/Resume.css';
 
@@ -82,6 +82,7 @@ export default function Resume() {
                             <SiHeroku className="mx-2" />
                             <br />
                             <SiPostman className="mx-2" />
+                            <SiJest className="mx-2" />
                             </div>
                             <ul>
                                 <li>Photoshop</li>
@@ -90,6 +91,7 @@ export default function Resume() {
                                 <li>GitHub</li>
                                 <li>Heroku</li>
                                 <li>Postman</li>
+                                <li>Jest</li>
                             </ul>
                         </article>
                     </article>

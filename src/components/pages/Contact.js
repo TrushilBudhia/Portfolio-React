@@ -39,7 +39,6 @@ function handleSubmit(event) {
     errorMessageSection.setAttribute('class', 'error-message notification is-danger my-4 is-block');
     errorMessage.innerHTML = errorMessageListItem;
     if (nameSelect && emailSelect && messageSelect) {
-        console.log('all fields have text');
         inputSelect.forEach((item) => {
             item.value = '';
         })

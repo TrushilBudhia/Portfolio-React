@@ -32,7 +32,8 @@ export default function Portfolio() {
                     <Project 
                         siteLink="https://afternoon-beyond-55572.herokuapp.com/" 
                         image={EaseeAppointmentTrackerImg} 
-                        description="Easee Appointment Tracker preview"
+                        imageDescription="Easee Appointment Tracker preview"
+                        summary="A simple and quick way to add and modify appointments to track and to search across those appointments"
                         title="Easee Appointment Tracker"
                         technologies="Node.js / MySQL / Express / Sequelize / JavaScript / Bulma CSS / Google Places API"
                         repoLink="https://github.com/ShaneCurtis84/Easy-Appointment-Tracker-2.0"
@@ -40,7 +41,8 @@ export default function Portfolio() {
                     <Project 
                         siteLink="https://budget-tracker-pwa-plus.herokuapp.com/" 
                         image={BudgetTrackerPwaAnimatedImg} 
-                        description="Budget Tracker PWA preview"
+                        imageDescription="Budget Tracker PWA preview"
+                        summary="An application that allows a user to add expenses and deposits to their budget with or without a connection"
                         title="Budget Tracker (PWA)"
                         technologies="Node.js / MongoDB / Mongoose / Express / IndexedDB / JavaScript"
                         repoLink="https://github.com/TrushilBudhia/Budget-Tracker-PWA"
@@ -48,7 +50,8 @@ export default function Portfolio() {
                     <Project 
                         siteLink="https://fitness-tracker-plus.herokuapp.com/" 
                         image={FitnessTrackerImg} 
-                        description="Fitness Tracker preview"
+                        imageDescription="Fitness Tracker preview"
+                        summary="An application where you can view, create and track daily workouts"
                         title="Fitness Tracker"
                         technologies="Node.js / MongoDB / Mongoose / Express / JavaScript"
                         repoLink="https://github.com/TrushilBudhia/Fitness-Tracker"
@@ -56,7 +59,8 @@ export default function Portfolio() {
                     <Project 
                         siteLink="https://lets-get-technucated.herokuapp.com/" 
                         image={TechBlogAnimatedImg} 
-                        description="Lets Get Technucated preview"
+                        imageDescription="Lets Get Technucated preview"
+                        summary="A blog website that allows users to publish and modify posts and comment on other posts"
                         title="Tech Blog"
                         technologies="Node.js / MySQL / Express / Sequelize / JavaScript"
                         repoLink="https://github.com/TrushilBudhia/Tech-Blog"
@@ -64,15 +68,17 @@ export default function Portfolio() {
                     <Project 
                         siteLink="https://github.com/TrushilBudhia/Employee-Management-System#assets" 
                         image={EmployeeManagementSystemAnimatedImg} 
-                        description="Employment Management System preview"
+                        imageDescription="Employment Management System preview"
+                        summary="An application to manage the departments, employees and roles within a company"
                         title="Employment Management System"
                         technologies="Node.js / MySQL / Inquirer / JavaScript"
                         repoLink="https://github.com/TrushilBudhia/Employee-Management-System"
                     />
                     <Project 
-                        siteLink="https://github.com/TrushilBudhia/Team-Profile-Generator#assets" 
+                        siteLink="https://still-dusk-03326.herokuapp.com/" 
                         image={NoteTakerAnimatedImg} 
-                        description="Note Taker preview"
+                        imageDescription="Note Taker preview"
+                        summary="An application that allows the user to record notes and to delete the notes they create"
                         title="Note Taker"
                         technologies="Node.js / Express / JavaScript"
                         repoLink="https://github.com/TrushilBudhia/Note-Taker"
@@ -80,7 +86,8 @@ export default function Portfolio() {
                     <Project 
                         siteLink="https://still-dusk-03326.herokuapp.com/" 
                         image={TeamProfileGeneratorImg} 
-                        description="Team Profile Generator preview"
+                        imageDescription="Team Profile Generator preview"
+                        summary="An application that will dynamically generate a Team Profile HTML webpage for a software engineering team that displays summaries for each team member"
                         title="Team Profile Generator"
                         technologies="Node.js / Jest / Inquirer / JavaScript / Tailwind CSS"
                         repoLink="https://github.com/TrushilBudhia/Team-Profile-Generator"
@@ -89,7 +96,8 @@ export default function Portfolio() {
                     <Project 
                         siteLink="https://trushilbudhia.github.io/Weather-Dashboard/" 
                         image={WeatherDashboardAnimatedImg} 
-                        description="Weather Dashboard preview"
+                        imageDescription="Weather Dashboard preview"
+                        summary="A weather dashboard that can retrieve weather data for the city inputted by the user - current day and five day forecast"
                         title="Weather Dashboard"
                         technologies="JavaScript / Bulma CSS / Google Places API"
                         repoLink="https://github.com/TrushilBudhia/Weather-Dashboard"
@@ -97,7 +105,8 @@ export default function Portfolio() {
                     <Project 
                         siteLink="https://trushilbudhia.github.io/Code-Quiz/" 
                         image={CodeQuizImg} 
-                        description="Code Quiz preview"
+                        imageDescription="Code Quiz preview"
+                        summary="A timed multiple choice quiz on Javascript fundamentals. Scores can be saved at the end of the quiz to a highscore table"
                         title="Code Quiz"
                         technologies="JavaScript / HTML / CSS"
                         repoLink="https://github.com/TrushilBudhia/Code-Quiz"
@@ -105,7 +114,8 @@ export default function Portfolio() {
                     <Project 
                         siteLink="https://trushilbudhia.github.io/Work-Day-Scheduler/" 
                         image={WorkDaySchedulerAnimatedImg} 
-                        description="Work Day Scheduler preview"
+                        imageDescription="Work Day Scheduler preview"
+                        summary="A simple calendar application that allows a user to save events for each hour of the working day"
                         title="Work Day Scheduler"
                         technologies="jQuery / JavaScript / HTML / CSS"
                         repoLink="https://github.com/TrushilBudhia/Work-Day-Scheduler"
@@ -113,7 +123,8 @@ export default function Portfolio() {
                     <Project 
                         siteLink="https://trushilbudhia.github.io/FlipCards-Half/" 
                         image={FlipCardImg} 
-                        description="Flip Card preview"
+                        imageDescription="Flip Card preview"
+                        summary="Flip card effect to display content"
                         title="Flip Card"
                         technologies="JavaScript / HTML / CSS"
                         repoLink="https://github.com/TrushilBudhia/FlipCards-Half"
@@ -121,7 +132,8 @@ export default function Portfolio() {
                     <Project 
                         siteLink="https://trushilbudhia.github.io/SearchAnimate/" 
                         image={AutotyperImg} 
-                        description="Autotyper preview"
+                        imageDescription="Autotyper preview"
+                        summary="An animated autotyper to make a search field more dynamic"
                         title="Autotyper"
                         technologies="JavaScript / HTML / CSS"
                         repoLink="https://github.com/TrushilBudhia/SearchAnimate"
