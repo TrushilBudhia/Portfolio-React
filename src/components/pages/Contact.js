@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { AiOutlineMail } from "react-icons/ai";
 import { FaUser } from "react-icons/fa";
+// Importing validateEmail helper to validate the email field
+import { validateEmail } from '../../utils/helpers';
+
 import '../../styles/Contact.css';
 
 export default function Contact() {
@@ -28,7 +31,7 @@ export default function Contact() {
     const handleSubmit = (event) => {
         event.preventDefault();
         setValid(false);
-        if (values.name && values.email && values.message) {
+        if (values.name && validateEmail(values.email) && values.message) {
             // sets valid to true if all the input fields are valid
             // Valid being true allows the success message to be displayed
             setValid(true);
@@ -77,7 +80,7 @@ export default function Contact() {
                                 <AiOutlineMail />
                             </span>
                             {/* // Error message will be displayed when submitted is true and there is no value in the input field */}
-                            {submitted && !values.email && <span id="email-error" className="has-text-danger my-4 is-block">*Please enter a valid email</span>}
+                            {!validateEmail(values.email) && submitted && <span id="email-error" className="has-text-danger my-4 is-block">*Please enter a valid email</span>}
                         </div>
                     </div>
 
