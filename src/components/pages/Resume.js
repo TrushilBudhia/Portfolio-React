@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons'
-import { SiReact, SiRedux, SiJavascript, SiWordpress, SiJquery, SiBootstrap, SiTailwindcss, SiBulma, SiCss3, SiHtml5, SiPhp, SiLaravel, SiNodeDotJs, SiMysql, SiMongodb, SiGraphql, SiAdobephotoshop, SiXampp, SiWebpack, SiGithub, SiHeroku, SiPostman, SiJest } from "react-icons/si";
+import { SiReact, SiRedux, SiJavascript, SiWordpress, SiJquery, SiBootstrap, SiTailwindcss, SiBulma, SiCss3, SiHtml5, SiPhp, SiLaravel, SiNodeDotJs, SiMysql, SiMongodb, SiApollographql, SiAdobephotoshop, SiXampp, SiWebpack, SiGithub, SiHeroku, SiPostman, SiJest } from "react-icons/si";
 import ResumeDocument from '../../assets/documents/Trushil-Budhia-Resume.pdf'
 import '../../styles/Resume.css';
 
@@ -58,7 +58,7 @@ export default function Resume() {
                             <SiMysql className="mx-2" />
                             <SiMongodb className="mx-2" />
                             <br />
-                            <SiGraphql className="mx-2" />
+                            <SiApollographql className="mx-2" />
                             </div>
                             <ul>
                                 <li>PHP</li>
@@ -69,7 +69,7 @@ export default function Resume() {
                                 <li>MySQL, Sequelize</li>
                                 <li>MongoDB, Mongoose</li>
                                 <li>REST</li>
-                                <li>GraphQL</li>
+                                <li>Apollo GraphQL</li>
                             </ul>
                         </article>
                         <article className="other is-block columns is-half mx-3 my-3">
