@@ -29,6 +29,15 @@ export default function Portfolio() {
             <article className="projects-container">
                 <article className="columns is-12 is-flex-wrap-wrap">
                     {/* // Building the projects by using the Project syntax and passing the parameters with the specfic projects values */}
+                    {/* <Project 
+                        siteLink="https://reamuse.herokuapp.com/" 
+                        image={ReamuseImg} 
+                        imageDescription="Reamuse preview"
+                        summary="A simple and quick way to add and modify appointments to track and to search across those appointments"
+                        title="Reamuse"
+                        technologies="React / Redux / Node.js / Express / MongoDB / Mongoose / Apollo GraphQL / JavaScript / Styled-Components / GSAP"
+                        repoLink="https://github.com/TrushilBudhia/Reamuse"
+                    /> */}
                     <Project 
                         siteLink="https://afternoon-beyond-55572.herokuapp.com/" 
                         image={EaseeAppointmentTrackerImg} 
