@@ -6,7 +6,7 @@ import '../styles/Navigation.css'
 export default function NavigationBar({ currentPage, handlePageChange }) {
     return (
         <nav id="navbar">
-            <a href="/">
+            <a href="/Portfolio-React/">
                 <h1>Trushil | Portfolio</h1>
             </a>
             <ul id="nav-list">
