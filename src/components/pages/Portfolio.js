@@ -13,6 +13,7 @@ import CodeQuizImg from '../../assets/images/Code-Quiz-img-1.jpg'
 // import WorkDaySchedulerImg from '../../assets/images/Work-Day-Scheduler-img-1.jpg'
 import FlipCardImg from '../../assets/images/Flip-Card-img-1.jpg'
 import AutotyperImg from '../../assets/images/Autotyper-img-1.jpg'
+import ReamuseImg from '../../assets/images/Reamuse-img-1.jpg'
 import BudgetTrackerPwaAnimatedImg from '../../assets/images/Budget-Tracker-PWA-img-2.gif'
 import TechBlogAnimatedImg from '../../assets/images/Tech-Blog-img-2.gif'
 import EmployeeManagementSystemAnimatedImg from '../../assets/images/Employee-Management-System-img-3.gif'
@@ -29,15 +30,15 @@ export default function Portfolio() {
             <article className="projects-container">
                 <article className="columns is-12 is-flex-wrap-wrap">
                     {/* // Building the projects by using the Project syntax and passing the parameters with the specfic projects values */}
-                    {/* <Project 
+                    <Project 
                         siteLink="https://reamuse.herokuapp.com/" 
                         image={ReamuseImg} 
                         imageDescription="Reamuse preview"
-                        summary="A simple and quick way to add and modify appointments to track and to search across those appointments"
+                        summary="An application that allows the user to play memory and cognitive related games wrapped within an amusing narrative experience."
                         title="Reamuse"
-                        technologies="React / Redux / Node.js / Express / MongoDB / Mongoose / Apollo GraphQL / JavaScript / Styled-Components / GSAP"
+                        technologies="React / Redux / Node.js / Express / MongoDB / Mongoose / Apollo GraphQL / JavaScript / GSAP"
                         repoLink="https://github.com/TrushilBudhia/Reamuse"
-                    /> */}
+                    />
                     <Project 
                         siteLink="https://afternoon-beyond-55572.herokuapp.com/" 
                         image={EaseeAppointmentTrackerImg} 

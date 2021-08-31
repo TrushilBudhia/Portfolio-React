@@ -6,7 +6,9 @@ import '../styles/Navigation.css'
 export default function NavigationBar({ currentPage, handlePageChange }) {
     return (
         <nav id="navbar">
-            <h1>Trushil | Portfolio</h1>
+            <a href="/">
+                <h1>Trushil | Portfolio</h1>
+            </a>
             <ul id="nav-list">
                 <li>
                     <a
@@ -31,7 +33,7 @@ export default function NavigationBar({ currentPage, handlePageChange }) {
                         Portfolio
                     </a>
                 </li>
-                <li>
+                {/* <li>
                     <a
                         href="#contact"
                         onClick={() => handlePageChange('Contact')}
@@ -40,7 +42,7 @@ export default function NavigationBar({ currentPage, handlePageChange }) {
                     >
                         Contact
                     </a>
-                </li>
+                </li> */}
                 <li>
                     <a
                         href="#resume"
