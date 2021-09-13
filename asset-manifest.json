@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.3060b139.chunk.css",
-    "main.js": "/Portfolio-React/static/js/main.e6321a3e.chunk.js",
-    "main.js.map": "/Portfolio-React/static/js/main.e6321a3e.chunk.js.map",
+    "main.js": "/Portfolio-React/static/js/main.d1ab294a.chunk.js",
+    "main.js.map": "/Portfolio-React/static/js/main.d1ab294a.chunk.js.map",
     "runtime-main.js": "/Portfolio-React/static/js/runtime-main.cc98a62e.js",
     "runtime-main.js.map": "/Portfolio-React/static/js/runtime-main.cc98a62e.js.map",
     "static/js/2.ea7a0e81.chunk.js": "/Portfolio-React/static/js/2.ea7a0e81.chunk.js",
@@ -22,7 +22,7 @@
     "static/media/Reamuse-img-1.3a773e14.jpg": "/Portfolio-React/static/media/Reamuse-img-1.3a773e14.jpg",
     "static/media/Team-Profile-Generator-img-1.ef3697e2.jpg": "/Portfolio-React/static/media/Team-Profile-Generator-img-1.ef3697e2.jpg",
     "static/media/Tech-Blog-img-2.30702cb1.gif": "/Portfolio-React/static/media/Tech-Blog-img-2.30702cb1.gif",
-    "static/media/Trushil-Budhia-Resume.76088378.pdf": "/Portfolio-React/static/media/Trushil-Budhia-Resume.76088378.pdf",
+    "static/media/Trushil-Budhia-Resume.8828e85b.pdf": "/Portfolio-React/static/media/Trushil-Budhia-Resume.8828e85b.pdf",
     "static/media/Weather-Dashboard-img-2.819e2c50.gif": "/Portfolio-React/static/media/Weather-Dashboard-img-2.819e2c50.gif",
     "static/media/Work-Day-Scheduler-img-2.81e977a8.gif": "/Portfolio-React/static/media/Work-Day-Scheduler-img-2.81e977a8.gif",
     "static/media/About.css": "/Portfolio-React/static/media/bg1.e7a416c6.jpg"
@@ -31,6 +31,6 @@
     "static/js/runtime-main.cc98a62e.js",
     "static/js/2.ea7a0e81.chunk.js",
     "static/css/main.3060b139.chunk.css",
-    "static/js/main.e6321a3e.chunk.js"
+    "static/js/main.d1ab294a.chunk.js"
   ]
 }
